@@ -1,0 +1,149 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+
+
+    tools:context="com.example.daniel.toplearningschueler.Registrieren">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="395dp"
+        android:scrollIndicators="right"
+        android:fillViewport="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Vorname..."
+                android:ems="10"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/et_vorname"
+                android:layout_alignRight="@+id/radioGrp"
+                android:layout_alignEnd="@+id/radioGrp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Nachname..."
+                android:ems="10"
+                android:layout_below="@+id/et_vorname"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/et_nachname"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:text="Geburtsdatum"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_nachname"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="23dp"
+                android:id="@+id/tv_birthday" />
+
+            <TextView
+                android:text="Geschlecht"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_gender"
+                android:layout_alignBaseline="@+id/tv_birthday"
+                android:layout_alignBottom="@+id/tv_birthday"
+                android:layout_alignLeft="@+id/radioGrp"
+                android:layout_alignStart="@+id/radioGrp" />
+
+            <RadioGroup
+                android:id="@+id/radioGrp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="23dp"
+                android:layout_marginEnd="23dp"
+                android:layout_below="@+id/tv_gender"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+                <RadioButton
+                    android:id="@+id/radioM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:checked="true"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:text="M"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radioF"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:checked="false"
+                    android:layout_weight="1"
+                    android:textSize="14dp"
+                    android:text="W"
+                    />
+            </RadioGroup>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_gravity="bottom">
+
+
+        <Button
+            android:text="Registrieren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_register"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <RadioButton
+            android:text="Ich aktzeptiere die"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/btn_register"
+            android:layout_alignEnd="@+id/btn_register" />
+
+        <Button
+            android:text="AGBs"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:id="@+id/btn_agbs"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btn_register"
+            android:layout_alignBottom="@+id/radioButton3" />
+
+
+    </RelativeLayout>
+</FrameLayout>
+
