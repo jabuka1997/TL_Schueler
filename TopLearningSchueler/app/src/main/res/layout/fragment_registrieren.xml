@@ -5,7 +5,7 @@
     android:padding="20dp"
 
 
-    tools:context="com.example.daniel.toplearningschueler.Registrieren">
+    tools:context="com.example.daniel.toplearningschueler.Views.Registrieren">
 
     <!-- TODO: Update blank fragment layout -->
 

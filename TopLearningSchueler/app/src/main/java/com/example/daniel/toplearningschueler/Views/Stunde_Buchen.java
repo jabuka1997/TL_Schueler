@@ -1,34 +1,23 @@
-package com.example.daniel.toplearningschueler;
+package com.example.daniel.toplearningschueler.Views;
 
 
-import android.app.DatePickerDialog;
-import android.app.Dialog;
-import android.icu.text.SimpleDateFormat;
-import android.icu.util.Calendar;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.daniel.toplearningschueler.R;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 import static android.widget.Toast.makeText;
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.daniel.toplearningschueler.Nav_Drawer_list">
+    tools:context="com.example.daniel.toplearningschueler.Views.Nav_Drawer_list">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

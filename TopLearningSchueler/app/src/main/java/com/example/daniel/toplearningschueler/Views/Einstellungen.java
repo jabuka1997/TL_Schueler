@@ -1,4 +1,4 @@
-package com.example.daniel.toplearningschueler;
+package com.example.daniel.toplearningschueler.Views;
 
 
 import android.os.Bundle;
@@ -7,14 +7,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.daniel.toplearningschueler.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Profil_verwalten extends Fragment {
+public class Einstellungen extends Fragment {
 
 
-    public Profil_verwalten() {
+    public Einstellungen() {
         // Required empty public constructor
     }
 
@@ -24,9 +26,8 @@ public class Profil_verwalten extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        getActivity().setTitle("Profil verwalten");
-
-        return inflater.inflate(R.layout.fragment_profil_verwalten, container, false);
+        getActivity().setTitle("Einstellungen");
+        return inflater.inflate(R.layout.fragment_einstellungen, container, false);
     }
 
 }

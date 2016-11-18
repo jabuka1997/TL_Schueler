@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.example.daniel.toplearningschueler.Hauptmenu">
+    tools:context="com.example.daniel.toplearningschueler.Views.Hauptmenu">
 
     <!-- TODO: Update blank fragment layout -->
 

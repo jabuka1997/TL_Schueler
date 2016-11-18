@@ -1,4 +1,4 @@
-package com.example.daniel.toplearningschueler;
+package com.example.daniel.toplearningschueler.Views;
 
 
 import android.os.Bundle;
@@ -8,10 +8,11 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
+
+import com.example.daniel.toplearningschueler.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
